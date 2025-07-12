@@ -1,41 +1,36 @@
-# 🎓 QCM Revision App
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-An educational web application that allows students to revise their subjects using interactive multiple-choice quizzes (QCM). Built with a modern full-stack TypeScript architecture using Next.js, tRPC, Drizzle ORM, and BetterAuth.
+## Getting Started
 
----
+First, run the development server:
 
-## 🚀 Features
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-### 👨‍🎓 For Students
-- Register and complete your profile (school, section, level)
-- Browse courses and chapters by subject
-- Practice QCMs with instant feedback
-- Track XP, quiz history, and progress
-- Compete with friends via gamified leaderboard (coming soon)
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-### 👩‍🏫 For Teachers
-- Create and manage courses and chapters
-- Add QCM questions with multiple answers
-- View student performance (optional)
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-### 🔐 For Admins
-- Approve teacher accounts
-- Manage users and content
-- Monitor system usage
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
----
+## Learn More
 
-## 🧱 Tech Stack
+To learn more about Next.js, take a look at the following resources:
 
-| Layer        | Technology             |
-|--------------|------------------------|
-| Frontend     | [Next.js](https://nextjs.org/) (App Router) |
-| Backend API  | [tRPC](https://trpc.io/) with TypeScript |
-| ORM & DB     | [Drizzle ORM](https://orm.drizzle.team/) + PostgreSQL |
-| Auth         | [BetterAuth](https://github.com/lucide-dev/better-auth) |
-| Styling      | [Tailwind CSS](https://tailwindcss.com/) + [shadcn/ui](https://ui.shadcn.com/) |
-| Data Fetching| TanStack React Query (via tRPC) |
-| Hosting      | Vercel + Railway (or Supabase/PlanetScale for DB) |
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
+## Deploy on Vercel
 
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
